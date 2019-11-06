@@ -43,6 +43,22 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 
 TIP Links:
 
+# macOS
+brew install bash-completion
+
+# CentOS/Red Hat
+yum install bash-completion
+
+# Debian/Ubuntu
+apt-get install bash-completion
+
+echo "source <(kubectl completion bash)" >> ${HOME}/.bashrc
+
+#ZSH
+echo 'source <(kubectl completion zsh)\n' >> ~/.zshrc
+
+
+
 https://v1-14.docs.kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 https://kubedex.com/7-5-tips-to-help-you-ace-the-certified-kubernetes-administrator-cka-exam/
